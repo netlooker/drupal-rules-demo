@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Code for the Rules Demo feature.
+ */
+
+include_once 'rules_demo.features.inc';
+
+// Include some custom rules & generic action definition
+module_load_include('inc', 'rules_demo', 'includes/rules_demo.rules');
+module_load_include('inc', 'rules_demo', 'includes/rules_demo.actions');
